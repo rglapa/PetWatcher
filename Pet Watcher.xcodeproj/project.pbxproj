@@ -14,6 +14,14 @@
 		4560B8E426C57B5F00FD976E /* Pet_WatcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4560B8E326C57B5F00FD976E /* Pet_WatcherTests.swift */; };
 		4560B8EE26C57B6000FD976E /* Pet_WatcherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4560B8ED26C57B6000FD976E /* Pet_WatcherUITests.swift */; };
 		4560B8F026C57B6000FD976E /* Pet_WatcherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4560B8EF26C57B6000FD976E /* Pet_WatcherUITestsLaunchTests.swift */; };
+		4560B8FF26C57E8700FD976E /* PetListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4560B8FE26C57E8700FD976E /* PetListView.swift */; };
+		4560B90226C57F6000FD976E /* FirstOpenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4560B90126C57F6000FD976E /* FirstOpenView.swift */; };
+		4560B90426C5849E00FD976E /* PetAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4560B90326C5849E00FD976E /* PetAlertView.swift */; };
+		4560B90626C8529100FD976E /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4560B90526C8529100FD976E /* HexagonParameters.swift */; };
+		45E5470726C8A4D000992533 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E5470626C8A4D000992533 /* BadgeBackground.swift */; };
+		45E5470926CAEA3300992533 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E5470826CAEA3300992533 /* BadgeSymbol.swift */; };
+		45E5470B26CAED8700992533 /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E5470A26CAED8700992533 /* RotatedBadgeSymbol.swift */; };
+		45E5470D26CAEE1A00992533 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E5470C26CAEE1A00992533 /* Badge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +52,14 @@
 		4560B8E926C57B6000FD976E /* Pet WatcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pet WatcherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4560B8ED26C57B6000FD976E /* Pet_WatcherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet_WatcherUITests.swift; sourceTree = "<group>"; };
 		4560B8EF26C57B6000FD976E /* Pet_WatcherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet_WatcherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4560B8FE26C57E8700FD976E /* PetListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetListView.swift; sourceTree = "<group>"; };
+		4560B90126C57F6000FD976E /* FirstOpenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FirstOpenView.swift; path = "Pet Watcher/FirstOpenView.swift"; sourceTree = SOURCE_ROOT; };
+		4560B90326C5849E00FD976E /* PetAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetAlertView.swift; sourceTree = "<group>"; };
+		4560B90526C8529100FD976E /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		45E5470626C8A4D000992533 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
+		45E5470826CAEA3300992533 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
+		45E5470A26CAED8700992533 /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
+		45E5470C26CAEE1A00992533 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +110,10 @@
 		4560B8D126C57B5B00FD976E /* Pet Watcher */ = {
 			isa = PBXGroup;
 			children = (
-				4560B8D226C57B5B00FD976E /* Pet_WatcherApp.swift */,
+				45E5470E26CAF04F00992533 /* Badges */,
 				4560B8D426C57B5B00FD976E /* ContentView.swift */,
+				4560B8D226C57B5B00FD976E /* Pet_WatcherApp.swift */,
+				4560B90026C57E9300FD976E /* My Views */,
 				4560B8D626C57B5F00FD976E /* Assets.xcassets */,
 				4560B8D826C57B5F00FD976E /* Preview Content */,
 			);
@@ -125,6 +143,28 @@
 				4560B8EF26C57B6000FD976E /* Pet_WatcherUITestsLaunchTests.swift */,
 			);
 			path = "Pet WatcherUITests";
+			sourceTree = "<group>";
+		};
+		4560B90026C57E9300FD976E /* My Views */ = {
+			isa = PBXGroup;
+			children = (
+				4560B90126C57F6000FD976E /* FirstOpenView.swift */,
+				4560B8FE26C57E8700FD976E /* PetListView.swift */,
+				4560B90326C5849E00FD976E /* PetAlertView.swift */,
+			);
+			path = "My Views";
+			sourceTree = "<group>";
+		};
+		45E5470E26CAF04F00992533 /* Badges */ = {
+			isa = PBXGroup;
+			children = (
+				4560B90526C8529100FD976E /* HexagonParameters.swift */,
+				45E5470626C8A4D000992533 /* BadgeBackground.swift */,
+				45E5470826CAEA3300992533 /* BadgeSymbol.swift */,
+				45E5470A26CAED8700992533 /* RotatedBadgeSymbol.swift */,
+				45E5470C26CAEE1A00992533 /* Badge.swift */,
+			);
+			path = Badges;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +297,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4560B90626C8529100FD976E /* HexagonParameters.swift in Sources */,
+				45E5470D26CAEE1A00992533 /* Badge.swift in Sources */,
+				4560B8FF26C57E8700FD976E /* PetListView.swift in Sources */,
+				45E5470B26CAED8700992533 /* RotatedBadgeSymbol.swift in Sources */,
+				45E5470726C8A4D000992533 /* BadgeBackground.swift in Sources */,
 				4560B8D526C57B5B00FD976E /* ContentView.swift in Sources */,
+				4560B90426C5849E00FD976E /* PetAlertView.swift in Sources */,
+				45E5470926CAEA3300992533 /* BadgeSymbol.swift in Sources */,
 				4560B8D326C57B5B00FD976E /* Pet_WatcherApp.swift in Sources */,
+				4560B90226C57F6000FD976E /* FirstOpenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
